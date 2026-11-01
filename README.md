@@ -11,7 +11,7 @@ The modules still to come are listed in [CURRICULUM.md](CURRICULUM.md).
 You need Python 3.11 or newer.
 
 ```bash
-git clone <this repo>
+git clone https://github.com/AISimplyNxt/learn-agents.git
 cd learn-agents
 python -m venv .venv
 ```

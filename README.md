@@ -1,10 +1,5 @@
 # learn-agents
 
-Learn how AI agents work by building them from scratch in plain Python, with no frameworks.
-Companion code for the **AI Simply** videos. Everything runs on your own laptop, for free.
-
-Start with [m01: The agent loop](m01_agent_loop/README.md): a working agent in under 90 lines.
-
 ## Set up
 
 You need Python 3.11 or newer.

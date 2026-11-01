@@ -85,7 +85,7 @@ def test_only_one_select_is_allowed(query):
 
 
 def test_local_files_cannot_be_read():
-    assert run_sql("SELECT * FROM read_text('CLAUDE.md')").startswith("SQL error")
+    assert run_sql("SELECT * FROM read_text('README.md')").startswith("SQL error")
 
 
 def test_extra_rows_are_flagged_not_dropped_silently():

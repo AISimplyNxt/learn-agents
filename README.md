@@ -4,7 +4,6 @@ Learn how AI agents work by building them from scratch in plain Python, with no 
 Companion code for the **AI Simply** videos. Everything runs on your own laptop, for free.
 
 Start with [m01: The agent loop](m01_agent_loop/README.md): a working agent in under 90 lines.
-The modules still to come are listed in [CURRICULUM.md](CURRICULUM.md).
 
 ## Set up
 

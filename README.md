@@ -5,6 +5,15 @@ Companion code for the **AI Simply** videos. Everything runs on your own laptop,
 
 Start with [m01: The agent loop](m01_agent_loop/README.md): a working agent in under 90 lines.
 
+## What's in each folder
+
+| Folder | What it holds |
+|---|---|
+| `m01_agent_loop/` | The lesson: the agent (`agent.py`), its one tool, a safe SQL runner (`tools.py`), and `break_it.py`, which shows the step limit stopping a runaway model. |
+| `common/` | Helpers every lesson shares: `llm.py` talks to the model, `trace.py` saves each run to `logs/` so you can check any answer, and `fake_llm.py` is a scripted model for testing. |
+| `sandbox/` | The practice database. `build_sandbox.py` creates it on your laptop, about 30 MB of sample data. |
+| `tests/` | Automatic checks for the agent and its safety limits. They use the scripted model, so they need no real model. |
+
 ## Set up
 
 You need Python 3.11 or newer.
